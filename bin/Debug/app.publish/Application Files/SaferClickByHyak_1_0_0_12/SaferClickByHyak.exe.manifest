@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SaferClickByHyak.exe" version="1.0.0.12" publicKeyToken="6f4a2bf5c2847fcb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SaferClickByHyak" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SaferClickByHyak.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SaferClickByHyak.exe" size="44512">
+      <assemblyIdentity name="SaferClickByHyak" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mCkcLicQBEvunSGw1QtQa/oKYs6H5gX5FgfznO4RZK0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SaferClickByHyak.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-JMCMDMC\destr" issuerKeyHash="ebf9e13a173800cef86c543f5201d9503675d556" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Lz2VBBZFUflejIlGYNFZsCatW+wZq73TZ/nwj9nUCog=</DigestValue></Reference></SignedInfo><SignatureValue>egNfu+qpT8C6PEn1m+8uaAaTkINLv4h0Kwhze/hwccXYXZtPeW8Sd5mhnJweXygmN1ZXi6Aq1U1iwrCDcsP4N8sH+1V+DT3dA5hU2F+9LE+HmeJ5QeK1fomI6Ecd3Tp66mzvxVomAj2LwNyqFIwrzSkXzlyVm8ieZhy7fJjNZiM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6/lHPYE0hXAxEXlmHilqi0jGqDosti+OVpba0+bWsZxTskeJvxm0lqkon37Y7njW70aU1LeMGOQtjIdBmCCcyJyoQmBtdq8gyhhKGM7ho0lUrVv3A4X3wRXVfRswgxzMF+nFaRmBrojkmmYA7VJOzew8fa2XBxPuEVdlEZrbNT0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="880ad4d98ff0f967d3bdab19ec5bad26b059d16046898c5ef951451604953d2f" Description="" Url=""><as:assemblyIdentity name="SaferClickByHyak.exe" version="1.0.0.12" publicKeyToken="6f4a2bf5c2847fcb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-JMCMDMC\destr</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XMh32JCpsK2RY2N5c2rpum3G4ovsrRkg/K9HqgasG9c=</DigestValue></Reference></SignedInfo><SignatureValue>ibQSYfRaT3YkoRg7B8+11TxgJkXy6Nt/fcUv0wqtGLn61CO13hITgTCa3PmXsdI9Gp/8aF718IB+yKAVxXtUV+/2GqxLw7V2k1mBwoUCui+RV08msHJCrZN56gnn7Tywk3cNwZpdiIIp1PKuVdSgHRV4cYbb9M7jRtd2aqmf7Nw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6/lHPYE0hXAxEXlmHilqi0jGqDosti+OVpba0+bWsZxTskeJvxm0lqkon37Y7njW70aU1LeMGOQtjIdBmCCcyJyoQmBtdq8gyhhKGM7ho0lUrVv3A4X3wRXVfRswgxzMF+nFaRmBrojkmmYA7VJOzew8fa2XBxPuEVdlEZrbNT0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQTgWqF84rhbNBDEJ7nqOQxjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEoATQBDAE0ARABNAEMAXABkAGUAcwB0AHIwHhcNMjExMTA1MDQ0NjM4WhcNMjIxMTA1MTA0NjM4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEoATQBDAE0ARABNAEMAXABkAGUAcwB0AHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOv5Rz2BNIVwMRF5Zh4paotIxqg6LLYvjlaW2tPm1rGcU7JHib8ZtJapKJ9+2O541u9GlNS3jBjkLYyHQZggnMicqEJgbXavIMoYShjO4aNJVK1b9wOF98EV1X0bMIMczBfpxWkZga6I5JpmAO1STs3sPH2tlwcT7hFXZRGa2zU9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAVDjC7zNEmbOJENLfUB8YJ3EvyvnwQS5UKmU6MSzEPTZ4vGeFIIKCn5eUwt8FjRgM/swkT/FVcDhz53qUB1SceKA/XUAs71xTKuGsnsOq55MWzJAMrKaBoVbha1VBVnla8oTYETnI9w8U6fVsAdQL12k/kXqioO25EeAWJAixpY0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

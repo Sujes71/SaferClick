@@ -1,0 +1,14 @@
+D:\source\repos\SaferClickByHyak\bin\Debug\SaferClickByHyak.exe.config
+D:\source\repos\SaferClickByHyak\bin\Debug\SaferClickByHyak.exe
+D:\source\repos\SaferClickByHyak\bin\Debug\SaferClickByHyak.pdb
+D:\source\repos\SaferClickByHyak\obj\Debug\SaferClickByHyak.csproj.AssemblyReference.cache
+D:\source\repos\SaferClickByHyak\obj\Debug\SaferClickByHyak.Form1.resources
+D:\source\repos\SaferClickByHyak\obj\Debug\SaferClickByHyak.Properties.Resources.resources
+D:\source\repos\SaferClickByHyak\obj\Debug\SaferClickByHyak.csproj.GenerateResource.cache
+D:\source\repos\SaferClickByHyak\obj\Debug\SaferClickByHyak.csproj.CoreCompileInputs.cache
+D:\source\repos\SaferClickByHyak\obj\Debug\SaferClickByHyak.exe
+D:\source\repos\SaferClickByHyak\obj\Debug\SaferClickByHyak.pdb
+D:\source\repos\SaferClickByHyak\bin\Debug\SaferClickByHyak.exe.manifest
+D:\source\repos\SaferClickByHyak\bin\Debug\SaferClickByHyak.application
+D:\source\repos\SaferClickByHyak\obj\Debug\SaferClickByHyak.exe.manifest
+D:\source\repos\SaferClickByHyak\obj\Debug\SaferClickByHyak.application
